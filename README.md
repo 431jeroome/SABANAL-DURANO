@@ -90,24 +90,32 @@ For each algorithm, the program displays:
 - **Selection**: Processes are executed in order of arrival
 - **Advantages**: Simple, fair
 - **Disadvantages**: Poor performance with varying burst times
+- <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/6b6762f7-67eb-43fd-a0ba-80123dd451f3" />
+
 
 ### Shortest Job First (SJF)
 - **Type**: Non-preemptive
 - **Selection**: Process with shortest burst time is selected
 - **Advantages**: Minimizes average waiting time
 - **Disadvantages**: Requires knowledge of burst times
+- <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/af5bc207-87de-4f33-bbc5-9591537185c2" />
+
 
 ### Shortest Remaining Time First (SRTF)
 - **Type**: Preemptive
 - **Selection**: Process with shortest remaining time is selected
 - **Advantages**: Optimal for minimizing average waiting time
 - **Disadvantages**: Complex implementation, starvation possible
+- <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/537aef8c-2e1c-4816-a5f8-ecc074c08401" />
+
 
 ### Round Robin (RR)
 - **Type**: Preemptive
 - **Selection**: Processes are executed in FIFO order with time quantum
 - **Advantages**: Fair, no starvation
 - **Disadvantages**: Performance depends on time quantum size
+- <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/08c257eb-9554-48d5-abcd-e21a79b7877e" />
+
 
 ### Multilevel Feedback Queue (MLFQ)
 - **Type**: Preemptive, multi-level
@@ -119,6 +127,8 @@ For each algorithm, the program displays:
   - Processes can be demoted to lower priority queues
 - **Advantages**: Balances response time and throughput
 - **Disadvantages**: Complex, potential starvation
+- <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/6207dff9-0ce1-4639-a24a-198c4ce7c614" />
+
 
 ## Sample Output
 
